@@ -1,0 +1,12 @@
+将函数库放入文件夹 C:\Users\<name>\Documents\Arduino\libraries
+
+普通电机驱动板        Arduino-motor-library
+PID                   Arduino-PID-Library
+SPI转CAN总线          CAN_BUS_Shield
+红外测距传感器        GP2Y0
+超声波                SR04
+jy901 IMU传感器       JY901
+闭环电机驱动板        rmds-library
+激光测距传感器        LRF
+
+在arduino IDE [文件] -> [示例] 里有每个模块的示例程序。
