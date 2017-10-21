@@ -102,8 +102,8 @@ void chassisLoop(void)
 		int16_t RB_motor_set_speed;
 
 		//速度归一化处理
-		mecanum_xyw_input(speed_x, speed_y, speed_w);
-		mecanum_map_output(&RF_motor_set_speed, &LF_motor_set_speed, &LB_motor_set_speed, &RB_motor_set_speed);
+		mecanum_input_xyw(speed_x, speed_y, speed_w);
+		mecanum_output(&RF_motor_set_speed, &LF_motor_set_speed, &LB_motor_set_speed, &RB_motor_set_speed);
 
 		//向电机驱动器发送数据
 		if (motor_is_on) {
